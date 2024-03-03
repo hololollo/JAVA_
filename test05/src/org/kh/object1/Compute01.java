@@ -1,6 +1,8 @@
 package org.kh.object1;
 
 public class Compute01 {
+	
+	
 	void fnc1() { // 반환X, 매개변수X
 		System.out.println("메서드1");
 	}

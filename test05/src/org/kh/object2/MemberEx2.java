@@ -1,6 +1,6 @@
 package org.kh.object2;
 
-import org.kh.object1.Member; // 패키지가 달라지면 자동으로 생성? -> 오브젝트1 멤버 클래스에 내포되어있다.
+import org.kh.object1.Member; // ★패키지가 달라지면 자동으로 생성? -> 오브젝트1 멤버 클래스에 내포되어있다.★
 
 public class MemberEx2 {
 

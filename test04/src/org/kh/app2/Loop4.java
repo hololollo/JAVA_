@@ -20,11 +20,12 @@ public class Loop4 {
 
 		}
 		System.out.println("결과 : " + total);
-		//해당 숫자를 입력하면, 구구단 중 해당 숫자의 단을 출력하시오.
 		
+		
+		//해당 숫자를 입력하면, 구구단 중 해당 숫자의 단을 출력하시오.
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("숫자 입력[2-9] : ");
-		int dan =scanner.nextInt();
+		int dan =scanner.nextInt(); 
 		
 		int num = 0;		
 			while (num < 9) {

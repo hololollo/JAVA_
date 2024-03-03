@@ -6,10 +6,10 @@ import java.util.Scanner;
 public class Condition3 {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.print("점수 입력[0-100] : ");
+		Scanner scanner = new Scanner(System.in); // 스캐너 임포트
+		System.out.print("점수 입력[0-100] : "); // 출력문
 		
-		int point = scanner.nextInt();
+		int point = scanner.nextInt(); // 사용자 입력(정수)
 		String result;
 		//학점은 점수(point)가 90점 이상이면 'A'이고 80점 이상이면 'B'이고 70점 이상이면 'C'... 'F'
 		if (point >= 90) {

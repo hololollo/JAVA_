@@ -8,13 +8,13 @@ public class Condition2 {
 		
 		String gender;
 		
-		if (sel == '1' || sel == '3') {
+		if (sel == '1' || sel == '3') { // A 또는 B => 둘 중 하나라도 참이라면 참.
 			gender = "남성";
 		} else {
 			gender = "여성";
 		}
 		
-		System.out.printf("%n성별은 %s ", gender);
+		System.out.printf("%n성별은 %s ", gender); // %s : 문자
 		
 	}
 

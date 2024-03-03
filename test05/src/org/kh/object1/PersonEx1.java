@@ -5,12 +5,15 @@ public class PersonEx1 {
 	public static void main(String[] args) {
 		// person 이라는 클래스에서 kang이라는 인스턴스를 사용.
 		// new : 생성자 (); -> 함수생략
-		Person kang = new Person(); // PersonEx1 클래스에서 Person 클래스의 인스턴스를 생성
+		Person kang = new Person(); // PersonEx1 클래스에서 Person 클래스의 인스턴스를 생성(객체화)
 		kang.name = "강범준";
 		kang.year = 1992;
 		kang.gender = "남성";
 		kang.job = "개발자";
+		
+		System.out.println(kang.year);
 		kang.running();
+		
 		
 		// String name;
 		// Person lee = new Person();

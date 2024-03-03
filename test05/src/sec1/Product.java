@@ -24,7 +24,7 @@ public class Product {
 		System.out.println(amount);		
 	}
 	public void print(int amount, String pname) { 
-		System.out.println(pname);
+		System.out.print(pname);
 		System.out.println(amount);		
 	}
 	

@@ -12,7 +12,7 @@ public class Loop6 {
 		
 		*/
 		
-		int quiz = (int) (Math.random() * 100); // 0~1 숫자를 출력, 곱하기 100을 먼저하고 정수형으로 형 변환
+		int quiz = (int) (Math.random() * 100); // 0~1 숫자를 출력, 곱하기 100을 먼저하고(0~1사이 난수 출력) 정수형으로 형 변환
 		System.out.println(quiz);
 		Scanner s = new Scanner(System.in);
 		while(true) {

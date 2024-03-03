@@ -7,7 +7,8 @@ public class Book {
 	private String author;
 	private String pub;
 	
-	public void print() {
+	//method overload : 같은 이름의 메서드 여러개를 가지면서 매개변수의 유형과 개수가 다르도록 하는 기술
+	public void print() { //  
 		System.out.println("교재 정보");
 	}
 

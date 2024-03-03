@@ -25,7 +25,6 @@ public class Board {
 		this.title = title;
 		this.admin = admin;
 	}
-	
 
 	public Board(int bno, String title, String admin, String content) {
 		this.bno = bno;

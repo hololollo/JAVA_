@@ -12,8 +12,10 @@ public class Member {
 	private String hobby;
 	
 	//생성자
+	/*
 	public Member() {
 	}
+	*/
 	/*
 		public Member(String name, String age, String address, String hobby) {
 		super();

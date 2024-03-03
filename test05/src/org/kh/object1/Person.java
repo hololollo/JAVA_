@@ -5,7 +5,7 @@ public class Person {
 	int year;
 	String gender;
 	String job;
-	void running() {
+	void running() { // void method : return값이 없음.
 		System.out.println(this.name + "이 달립니다.");
 	}
 }

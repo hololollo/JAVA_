@@ -7,9 +7,12 @@ public class StudentEx1 {
 		Student kang = new Student();
 		
 		kang.name = "강범준";
+		//변수값 새로 지정 가능.
 		kang.kor = 100;
 		kang.eng = 100;
 		kang.mat = 100;
+		
+		System.out.println(kang.total());
 		
 		kang.resulting();
 	}
