@@ -28,10 +28,12 @@ class Menu {
 class Human {
 	String name;
 	int money;
-	public Human(String name, int money) {
+	
+	public Human(String name, int money) { //생성자 매개변수 선언
 		this.name = name;
 		this.money = money;
 	}
+	
 	public void buyStarCafe(StarCafe sCafe, int money){
 		String msg = sCafe.brewing(money);
 		if(msg != null) {
@@ -49,6 +51,7 @@ class Human {
 }
 class StarCafe {
 	int money;
+	
 	public String brewing(int money) {
 		this.money += money;
 		if(money == Menu.STARAMERICANO) {
@@ -64,6 +67,7 @@ class StarCafe {
 }
 class BeanCafe {
 	int money;
+	
 	public String brewing(int money) {
 		this.money += money;
 		if(money == Menu.BEANAMERICANO) {

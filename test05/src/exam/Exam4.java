@@ -49,7 +49,9 @@ class MyDate {
 		return valid;
 	}
 	public void print() {
-		if(this.isValid()) System.out.println("유효한 날짜입니다.");
+		if(this.isValid()) {
+			System.out.println("유효한 날짜입니다.");
+		}
 		else System.out.println("유효하지 않은 날짜입니다.");
 	}
 }
@@ -60,4 +62,6 @@ public class Exam4 {
 		MyDate date2 = new MyDate(31, 3, 2024);
 		date2.print();
 	}
+
 }
+
