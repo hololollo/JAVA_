@@ -14,10 +14,10 @@ public class StringExam1 {
 		
 		
 		String str = "강범준/박동빈/이성하/조대신/배곤희/권민지"; 
-		// ,,로 나눠 지지 않은 상태로 문자열 하나에서 나누어 출력하는 방법
+		// ,,로 나눠 지지 않은 상태로 문자열 하나에서 나누어, 합쳐서 출력하는 방법 (.split, .join)
 		
 		String[] names = new String[6];
-		names = str.split("/");
+		names = str.split("/"); // "/"기준으로 나누기
 		for (String s : names) {
 			System.out.println(s);
 		}
@@ -29,8 +29,7 @@ public class StringExam1 {
 		System.out.println(names[4]);
 		System.out.println(names[5]);
 		*/
-		String str2 = new String();
-		str2.equals(str);
+		String str2 = String.join("/", names); // "/"기준으로 합치기
 		System.out.println(str2);
 		
 		
