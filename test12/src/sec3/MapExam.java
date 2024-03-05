@@ -1,5 +1,5 @@
 package sec3;
-
+// Map : HashMap, Hashtable, TreeMap, Properties => 키와 값 분리시에는 entry 또는 element 단위로 Iterator나 Enumeration이 필요
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Iterator;
